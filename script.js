@@ -1,8 +1,8 @@
 const moodle_client = require("moodle-client");
 const csv = require('csv-parser');
 const fs = require('fs');
-const moodleURL = "https://s-navitas-gc.catalyst-au.net/"
-const moodleToken = "e53a903ef4fd615ebc0af85bab9ee474"
+const moodleURL = ""
+const moodleToken = ""
 
 // csv is expected in same folder as script, must include suffix, must be csv file type, must be comma as seperator.
 const csvName = 'gc.csv';
