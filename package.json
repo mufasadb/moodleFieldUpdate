@@ -1,0 +1,24 @@
+{
+  "name": "moodle-zoom-update-field",
+  "version": "1.0.0",
+  "description": "Updates the 'zoom' field for users in Moodle using the Moodle API, could be upodated to change any field pretty quickly",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mufasadb/moodleFieldUpdate.git"
+  },
+  "author": "Daniel Beach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mufasadb/moodleFieldUpdate/issues"
+  },
+  "homepage": "https://github.com/mufasadb/moodleFieldUpdate#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "moodle-client": "^0.5.2"
+  }
+}
